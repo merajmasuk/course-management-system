@@ -1,4 +1,4 @@
-import { Navigate, useLocation } from "react-router";
+import { Navigate, useLocation } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const AdminRoute = ({children}) => {
     const userInfo=JSON.parse(localStorage.getItem('userInfo'));
