@@ -73,16 +73,14 @@ npm run dev
 **NOTE:** The backend requires a special `.env` file to run properly, this contains various secret keys, database authentications etc. For security this has been exempted from the github repository. Please contact one of the repository maintainers for the access.
 
 ### Testing
-
-2. For testing, enter the following command:
+For testing, enter the following command:
 
    ```bash
    npm test
    ```
 
 ### JSdoc
-
-3. Frontend:
+Frontend:
 
 ```
 cd frontend/src/pages/<page>/out
@@ -90,8 +88,8 @@ cd frontend/src/pages/<page>/out
 
 backend: 
 ```bash
-   cd backend/controllers/out
-   # open user.controller.js click mouse right click and "open with Live server" button.
+cd backend/controllers/out
+# open user.controller.js click mouse right click and "open with Live server" button.
 ```
 
 ### Unit test
